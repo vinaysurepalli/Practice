@@ -4,18 +4,18 @@ node{
     stages {
         stage('Build') {
             steps {
-                
+                echo "Build"
             }
           }
        stage('Test') {
             steps {
-                echo 'Test App'
+                echo "Test App"
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Helloworld'
-            }
+                echo "Helloworld"
+                }
         }
        
         }
